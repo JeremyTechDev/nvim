@@ -52,6 +52,7 @@ let g:NERDTreeGitStatusWithFlags = 1
 
 
 let g:NERDTreeIgnore = ['^node_modules$']
+let NERDTreeShowHidden = 1
 
 " FZF
 " This is the default extra key bindings
