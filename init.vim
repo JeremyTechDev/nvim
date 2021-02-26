@@ -15,6 +15,8 @@ endif
 " Source settings
 so ~/.config/nvim/settings/plugins.vim
 so ~/.config/nvim/settings/defaults.vim
+so ~/.config/nvim/settings/mappings.vim
+so ~/.config/nvim/settings/nvim-which-key.vim
 so ~/.config/nvim/settings/nerd-tree.vim
 so ~/.config/nvim/settings/theme.vim
 so ~/.config/nvim/settings/coc-defaults.vim

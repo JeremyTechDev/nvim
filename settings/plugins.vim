@@ -7,35 +7,35 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 
 " Theme
-Plug 'sainnhe/sonokai'                " Theme
-Plug 'ryanoasis/vim-devicons'         " Icons
-Plug 'vim-airline/vim-airline'        " Status bar theme config
-Plug 'vim-airline/vim-airline-themes' " Status bar themes
+Plug 'sainnhe/sonokai'                                        " Theme
+Plug 'ryanoasis/vim-devicons'                                 " Icons
+Plug 'vim-airline/vim-airline'                                " Status bar theme config
+Plug 'vim-airline/vim-airline-themes'                         " Status bar themes
 
 " NERDTree
-Plug 'scrooloose/nerdtree'                      " File explorer
-Plug 'Xuyuanp/nerdtree-git-plugin'              " Git status on file explorer
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'  " Extra highlight
+Plug 'scrooloose/nerdtree'                                    " File explorer
+Plug 'Xuyuanp/nerdtree-git-plugin'                            " Git status on file explorer
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'                " Extra highlight
 
 " Autocompletion
-Plug 'neoclide/coc.nvim', {'branch': 'release'}   " VScode autocompetion like
+Plug 'neoclide/coc.nvim', {'branch': 'release'}               " VScode autocompetion like
 
 " Search
-Plug 'ctrlpvim/ctrlp.vim'                             " Fuzzy find files
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }   " Fuzzy find
-Plug 'junegunn/fzf.vim'                               " Fuzzy find
+Plug 'ctrlpvim/ctrlp.vim'                                     " Fuzzy find files
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }           " Fuzzy find
+Plug 'junegunn/fzf.vim'                                       " Fuzzy find
 
 " Movement
-Plug 'christoomey/vim-tmux-navigator'   " Move between pannels
+Plug 'liuchengxu/vim-which-key'                               " Leader key cheatsheet
 
 " Editor
-Plug 'airblade/vim-gitgutter'        " Show git diff markers on file
-Plug 'sheerun/vim-polyglot'          " Syntax and indentation support
-Plug 'scrooloose/nerdcommenter'      " Toggle comments
-Plug 'HerringtonDarkholme/yats.vim'  " TS Syntax
+Plug 'airblade/vim-gitgutter'                                 " Show git diff markers on file
+Plug 'sheerun/vim-polyglot'                                   " Syntax and indentation support
+Plug 'scrooloose/nerdcommenter'                               " Toggle comments
+Plug 'HerringtonDarkholme/yats.vim'                           " TS Syntax
 
 " Utils
-Plug 'airblade/vim-rooter'  " Changes Vim working directory to project root
+Plug 'airblade/vim-rooter'                                    " Changes Vim working directory to project root
 
 " :PlugInstall to install all plugings
 call plug#end()
