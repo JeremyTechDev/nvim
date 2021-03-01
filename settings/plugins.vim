@@ -7,7 +7,7 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 
 " Theme
-Plug 'sainnhe/sonokai'                                        " Theme
+Plug 'joshdick/onedark.vim'                                   " Theme
 Plug 'ryanoasis/vim-devicons'                                 " Icons
 Plug 'vim-airline/vim-airline'                                " Status bar theme config
 Plug 'vim-airline/vim-airline-themes'                         " Status bar themes
