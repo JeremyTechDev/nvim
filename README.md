@@ -7,6 +7,7 @@
 </div>
 
 ### Requeriments
+
 Before running the installation command, you must have [neovim](https://neovim.io) installed.
 
 ### Installation

@@ -25,14 +25,12 @@ Plug 'ctrlpvim/ctrlp.vim'                                     " Fuzzy find files
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }           " Fuzzy find
 Plug 'junegunn/fzf.vim'                                       " Fuzzy find
 
-" Movement
-Plug 'liuchengxu/vim-which-key'                               " Leader key cheatsheet
-
 " Editor
 Plug 'airblade/vim-gitgutter'                                 " Show git diff markers on file
 Plug 'sheerun/vim-polyglot'                                   " Syntax and indentation support
 Plug 'scrooloose/nerdcommenter'                               " Toggle comments
 Plug 'HerringtonDarkholme/yats.vim'                           " TS Syntax
+Plug 'mhinz/vim-startify'                                     " Start Screen
 
 " Utils
 Plug 'airblade/vim-rooter'                                    " Changes Vim working directory to project root
