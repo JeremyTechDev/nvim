@@ -23,3 +23,4 @@ so ~/.config/nvim/settings/airline.vim
 so ~/.config/nvim/settings/coc-defaults.vim
 so ~/.config/nvim/settings/utils.vim
 so ~/.config/nvim/settings/BufOnly.vim
+so ~/.config/nvim/settings/emmet.vim

@@ -31,6 +31,7 @@ Plug 'sheerun/vim-polyglot'                                   " Syntax and inden
 Plug 'scrooloose/nerdcommenter'                               " Toggle comments
 Plug 'HerringtonDarkholme/yats.vim'                           " TS Syntax
 Plug 'mhinz/vim-startify'                                     " Start Screen
+Plug 'mattn/emmet-vim'                                        " Emmet HTML tags completion
 
 " Utils
 Plug 'airblade/vim-rooter'                                    " Changes Vim working directory to project root
