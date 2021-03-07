@@ -17,11 +17,9 @@ let $FZF_DEFAULT_COMMAND="rg --files --hidden"
 
 
 """ Mappings
-map <C-f> :Files<CR>
-map <leader>b :Buffers<CR>
-nnoremap <leader>g :Rg<CR>
-nnoremap <leader>t :Tags<CR>
-nnoremap <leader>m :Marks<CR>
+nnoremap <silent> <Leader>f :Rg<CR>
+nnoremap <silent> <C-f> :Files<CR>
+nnoremap <silent> <Leader>l :BLines<CR>
 
 
 
