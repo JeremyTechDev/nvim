@@ -24,7 +24,7 @@ nnoremap <silent> <Leader>l :BLines<CR>
 
 
 """ Theme
-let g:fzf_layout = {'up':'~90%', 'window': { 'width': 0.8, 'height': 0.8,'yoffset':0.5,'xoffset': 0.5, 'highlight': 'Todo', 'border': 'sharp' } } " Border color
+let g:fzf_layout = {'up':'~90%', 'window': { 'width': 0.9, 'height': 0.9,'yoffset':0.5,'xoffset': 0.5, 'highlight': 'Todo', 'border': 'sharp' } } " Border color
 
 " Customize fzf colors to match your color scheme
 let g:fzf_colors =
