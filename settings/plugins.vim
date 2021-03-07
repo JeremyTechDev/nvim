@@ -26,12 +26,16 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }           " Fuzzy find
 Plug 'junegunn/fzf.vim'                                       " Fuzzy find
 
 " Editor
-Plug 'airblade/vim-gitgutter'                                 " Show git diff markers on file
 Plug 'sheerun/vim-polyglot'                                   " Syntax and indentation support
 Plug 'scrooloose/nerdcommenter'                               " Toggle comments
 Plug 'HerringtonDarkholme/yats.vim'                           " TS Syntax
 Plug 'mhinz/vim-startify'                                     " Start Screen
 Plug 'mattn/emmet-vim'                                        " Emmet HTML tags completion
+
+" Git
+Plug 'mhinz/vim-signify'                                      " Git diff signs 
+Plug 'tpope/vim-fugitive'                                     " Git browsing
+Plug 'tpope/vim-rhubarb'                                      " Git browsing dependency
 
 " Utils
 Plug 'airblade/vim-rooter'                                    " Changes Vim working directory to project root

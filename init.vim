@@ -3,7 +3,7 @@
 if &compatible
   set nocompatible
 endif
-                
+
 " Convenient command to see the difference between the current buffer and the
 " file it was loaded from, thus the changes you made.
 " Only define it when not defined already.
@@ -23,4 +23,5 @@ so ~/.config/nvim/settings/coc-defaults.vim
 so ~/.config/nvim/settings/utils.vim
 so ~/.config/nvim/settings/BufOnly.vim
 so ~/.config/nvim/settings/emmet.vim
+so ~/.config/nvim/settings/signify.vim
 so ~/.config/nvim/settings/mappings.vim
