@@ -1,3 +1,9 @@
+" Move lines up and down
+nnoremap K :m .-2<CR>==
+nnoremap J :m .+1<CR>==
+vnoremap K :m '<-2<CR>gv=gv
+vnoremap J :m '>+1<CR>gv=gv
+
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
@@ -15,12 +21,6 @@ inoremap kj <Esc>
 " Prevent x from overriding what's in the clipboard.
 noremap x "_x
 noremap X "_x
-
-" Move lines up and down
-nnoremap K :m .-2<CR>==
-nnoremap J :m .+1<CR>==
-vnoremap K :m '<-2<CR>gv=gv
-vnoremap J :m '>+1<CR>gv=gv
 
 " Toggle comment with :++ (set to [Command/Ctrl] + / with iTerm)
 vmap ++ <plug>NERDCommenterToggle

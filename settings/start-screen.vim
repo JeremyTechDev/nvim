@@ -18,6 +18,7 @@ let g:startify_lists = [
           \ ]
 
 let g:startify_bookmarks = [
+            \ {'a': '.'},
             \ { 'v': '~/.config/nvim' },
             \ { 't': '~/dev/tsseract' },
             \ { 'n': '~/dev/nexstar-frontend' },
