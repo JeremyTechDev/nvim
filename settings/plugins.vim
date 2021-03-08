@@ -12,11 +12,6 @@ Plug 'ryanoasis/vim-devicons'                                 " Icons
 Plug 'vim-airline/vim-airline'                                " Status bar theme config
 Plug 'vim-airline/vim-airline-themes'                         " Status bar themes
 
-" NERDTree
-Plug 'scrooloose/nerdtree'                                    " File explorer
-Plug 'Xuyuanp/nerdtree-git-plugin'                            " Git status on file explorer
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'                " Extra highlight
-
 " Autocompletion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}               " VScode autocompetion like
 

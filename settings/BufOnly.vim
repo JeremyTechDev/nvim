@@ -11,6 +11,8 @@
 " Without any arguments the current buffer is kept.  With an argument the
 " buffer name/number supplied is kept.
 
+nmap <C-w> :BOnly<CR>
+
 command! -nargs=? -complete=buffer -bang Bonly
     \ :call BufOnly('<args>', '<bang>')
 command! -nargs=? -complete=buffer -bang BOnly

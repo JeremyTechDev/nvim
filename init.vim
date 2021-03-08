@@ -15,7 +15,6 @@ endif
 " Source settings
 so ~/.config/nvim/settings/plugins.vim
 so ~/.config/nvim/settings/defaults.vim
-so ~/.config/nvim/settings/nerd-tree.vim
 so ~/.config/nvim/settings/start-screen.vim
 so ~/.config/nvim/settings/fzf-defaults.vim
 so ~/.config/nvim/settings/theme.vim
