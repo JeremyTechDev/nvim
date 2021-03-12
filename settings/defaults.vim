@@ -1,7 +1,7 @@
 " set leader key
 let g:mapleader = "\<Space>"
 
-syntax enable                           " Enables syntax highlighing
+syntax enable                           " Enables syntax highlighting
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
 set encoding=utf-8                      " The encoding displayed
@@ -34,6 +34,9 @@ set updatetime=100                      " Faster completion
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
+set spell       												" Spell check
+set spelllang=en_us 										" Spell check language
+set complete+=kspell 										" Auto complete with C-n and C-p
 "set autochdir                           " Your working directory will always be the same as your working directory
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
