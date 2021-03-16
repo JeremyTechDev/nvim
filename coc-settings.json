@@ -48,5 +48,11 @@
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"]
+  },
+
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+  "snippets.extends": {
+    "javascriptreact": ["javascript"],
+    "typescriptreact": ["typescript"]
   }
 }

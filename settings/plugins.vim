@@ -22,7 +22,7 @@ Plug 'junegunn/fzf.vim'                                       " Fuzzy find
 
 " Editor
 Plug 'sheerun/vim-polyglot'                                   " Syntax and indentation support
-Plug 'scrooloose/nerdcommenter'                               " Toggle comments
+Plug 'preservim/nerdcommenter'                                " Toggle comments
 Plug 'HerringtonDarkholme/yats.vim'                           " TS Syntax
 Plug 'mhinz/vim-startify'                                     " Start Screen
 Plug 'mattn/emmet-vim'                                        " Emmet HTML tags completion
