@@ -2,6 +2,10 @@ snippet clog "console.log()" b
 console.log($1);
 endsnippet
 
+snippet isty "import styles" b
+import useStyles from '${1:./styles}';
+endsnippet
+
 snippet ust "useStyles" b
 const classes = useStyles();
 endsnippet
@@ -30,16 +34,12 @@ snippet afr "anonymous function return" b
 }
 endsnippet
 
+snippet mksty "Make Styles" b
+import { makeStyles } from '@material-ui/core/styles';
 
-snippet rfc "React functional component" b
-const ${1:ComponentName} = ({ ${2:props} }) => {
+const styles = makeStyles({
+	$1
+});
 
-	return ();
-}
-
-export default $1 
-endsnippet
-
-snippet rust "React useState()" b
-const [$1, set$2] = useState($3);
+export default styles;
 endsnippet
