@@ -16,9 +16,9 @@ Plug 'vim-airline/vim-airline-themes'                         " Status bar theme
 Plug 'neoclide/coc.nvim', {'branch': 'release'}               " VScode autocompetion like
 
 " Search
-Plug 'ctrlpvim/ctrlp.vim'                                     " Fuzzy find files
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }           " Fuzzy find
-Plug 'junegunn/fzf.vim'                                       " Fuzzy find
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 
 " Editor
 Plug 'sheerun/vim-polyglot'                                   " Syntax and indentation support

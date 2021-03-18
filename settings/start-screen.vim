@@ -1,12 +1,12 @@
-let g:startify_custom_header = [
-        \ '                      v  ~.      v',
-        \ '             v           /|',
-        \ '                        / |          v',
-        \ '                 v     /__|__',
-        \ '                     \--------/',
-        \ "~~~~~~~~~~~~~~~~~~~~~~`~~~~~~'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
-        \ '   Wish you were here?... (I know you do)',
-        \]
+" let g:startify_custom_header = [
+        " \ '                      v  ~.      v',
+        " \ '             v           /|',
+        " \ '                        / |          v',
+        " \ '                 v     /__|__',
+        " \ '                     \--------/',
+        " \ "~~~~~~~~~~~~~~~~~~~~~~`~~~~~~'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        " \ '   Wish you were here?... (I know you do)',
+        " \]
 
 let g:startify_session_dir = '~/.config/nvim/session'
 
@@ -25,3 +25,6 @@ let g:startify_bookmarks = [
             \ { 'b': '~/dev/nexstar-backend-middleware' },
             \ ]
 
+function! StartifyEntryFormat()
+        return 'WebDevIconsGetFileTypeSymbol(absolute_path) ." ". entry_path'
+endfunction

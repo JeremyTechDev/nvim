@@ -16,7 +16,6 @@ endif
 so ~/.config/nvim/settings/plugins.vim
 so ~/.config/nvim/settings/defaults.vim
 so ~/.config/nvim/settings/start-screen.vim
-so ~/.config/nvim/settings/fzf-defaults.vim
 so ~/.config/nvim/settings/theme.vim
 so ~/.config/nvim/settings/airline.vim
 so ~/.config/nvim/settings/coc-defaults.vim
@@ -25,3 +24,4 @@ so ~/.config/nvim/settings/BufOnly.vim
 so ~/.config/nvim/settings/emmet.vim
 so ~/.config/nvim/settings/git-signify.vim
 so ~/.config/nvim/settings/mappings.vim
+so ~/.config/nvim/settings/telescope.vim

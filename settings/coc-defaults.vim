@@ -35,6 +35,9 @@ let g:coc_global_extensions = [
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <c-space> coc#refresh()
 
+" Hover
+nnoremap <silent> K :call CocAction('doHover')<CR>
+
 " Remap keys for gotos
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
