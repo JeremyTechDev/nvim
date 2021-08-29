@@ -13,15 +13,19 @@ if !exists(":DiffOrig")
 endif
 
 " Source settings
-so ~/.config/nvim/settings/plugins.vim
-so ~/.config/nvim/settings/defaults.vim
-so ~/.config/nvim/settings/start-screen.vim
-so ~/.config/nvim/settings/theme.vim
-so ~/.config/nvim/settings/airline.vim
-so ~/.config/nvim/settings/coc-defaults.vim
-so ~/.config/nvim/settings/utils.vim
-so ~/.config/nvim/settings/BufOnly.vim
-so ~/.config/nvim/settings/emmet.vim
-so ~/.config/nvim/settings/git-signify.vim
-so ~/.config/nvim/settings/mappings.vim
-so ~/.config/nvim/settings/telescope.vim
+so ~/.config/nvim/vim/plugins.vim
+so ~/.config/nvim/vim/theme.vim
+so ~/.config/nvim/vim/settings.vim
+
+" Source plugings settings
+so ~/.config/nvim/vim/telescope/init.vim
+so ~/.config/nvim/vim/nerdcomment/init.vim
+so ~/.config/nvim/vim/lsp/init.vim
+
+" Source lua settings
+lua <<EOF
+require("lsp")
+require("treesitter")
+require("statusbar")
+require("completion")
+EOF
